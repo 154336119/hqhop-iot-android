@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="sort_type_all_alert">
+        <item>@string/all</item>
+        <!--<item>@string/date_ascending</item>-->
+        <!--<item>@string/date_descending</item>-->
+        <!--<item>@string/emergency_ascending</item>-->
+        <!--<item>@string/emergency_descending</item>-->
+        <item>@string/recent_one_day</item>
+        <item>@string/recent_three_days</item>
+        <item>@string/recent_five_days</item>
+    </string-array>
+
+    <string-array name="sort_type_all_liquid">
+        <item>@string/all</item>
+        <item>@string/date_descending</item>
+        <item>@string/date_ascending</item>
+        <item>@string/liquid_ascending</item>
+        <item>@string/liquid_descending</item>
+    </string-array>
+
+    <string-array name="sort_type_all_pressure">
+        <item>@string/all</item>
+        <item>@string/date_descending</item>
+        <item>@string/date_ascending</item>
+        <item>@string/pressure_ascending</item>
+        <item>@string/pressure_descending</item>
+    </string-array>
+
+    <string-array name="sort_type_all_events">
+        <item>@string/all</item>
+        <item>@string/alarm</item>
+        <item>@string/alarm_clear</item>
+        <item>@string/scene_change</item>
+        <item>@string/online</item>
+        <item>@string/offline</item>
+    </string-array>
+
+    <string-array name="sort_type_all_stations">
+        <item>@string/sales_descending</item>
+        <item>@string/sales_ascending</item>
+    </string-array>
+
+    <string-array name="date">
+        <item>@string/date_ascending</item>
+        <item>@string/date_descending</item>
+    </string-array>
+
+    <string-array name="emergency">
+        <item>高危</item>
+        <item>紧急</item>
+        <item>一般</item>
+    </string-array>
+
+    <string-array name="type_station">
+        <item>@string/all</item>
+        <item>瓶组站</item>
+        <item>储罐站</item>
+    </string-array>
+
+    <string-array name="sales_remain">
+        <item>@string/sales_descending</item>
+        <item>@string/sales_ascending</item>
+        <item>库存由高到低</item>
+        <item>库存由低到高</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>区域</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>@string/all</item>
+        <item>@string/online</item>
+        <item>@string/offline</item>
+        <item>@string/alarm</item>
+    </string-array>
+
+    <string-array name="type_maintain">
+        <item>维修</item>
+        <item>保养</item>
+    </string-array>
+
+    <string-array name="dashboard_item">
+        <item>0</item>
+        <item>200</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="polling_content">
+        <item>巡检任务1</item>
+        <item>巡检任务2</item>
+        <item>巡检任务3</item>
+        <item>巡检任务4</item>
+        <item>巡检任务5</item>
+    </string-array>
+</resources>

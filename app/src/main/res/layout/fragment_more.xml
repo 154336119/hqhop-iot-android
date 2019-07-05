@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点详情页-更多Fragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_alipay_more_detail_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="支付宝"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_wechat_more_detail_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信支付"
+        android:visibility="gone" />
+
+</LinearLayout>

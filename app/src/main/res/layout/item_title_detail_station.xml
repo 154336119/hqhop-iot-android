@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 导航-总览 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="2dp"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/iv_icon_detail_station"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        tools:src="@drawable/ic_gasonline_station"/>
+
+    <TextView
+        android:id="@+id/tv_title_detail_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textColor="@color/colorTextOverviewTitle"
+        android:textSize="13sp"
+        tools:text="LNG站"/>
+
+</LinearLayout>

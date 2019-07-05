@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 所有液位信息 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dial" />
+
+    <TextView
+        android:id="@+id/tv_station_all_liquid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        tools:text="成都书龙泉CNG加气站" />
+
+    <TextView
+        android:id="@+id/tv_value_all_liquid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="98.0665" />
+
+    <TextView
+        android:id="@+id/tv_unit_all_liquid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp"
+        tools:text="kPa" />
+
+</LinearLayout>

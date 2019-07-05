@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 工作台模块Toolbar配置 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.WorkbenchFragment">
+    <!--<item-->
+        <!--android:id="@+id/menu_item_modules_workbench"-->
+        <!--android:title="面板"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/menu_item_scan_login"
+        android:icon="@drawable/ic_scan_qrcode"
+        android:title="扫描"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点列表Toolbar配置 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.WorkbenchFragment">
+    <item
+        android:id="@+id/menu_item_add_all_follow_station"
+        android:icon="@drawable/ic_add"
+        android:title="添加"
+        app:showAsAction="always" />
+</menu>

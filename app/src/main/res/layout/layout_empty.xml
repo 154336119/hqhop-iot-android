@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_nodata_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nodata" />
+
+    <TextView
+        android:id="@+id/tv_nodata_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_nodata_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="16sp"
+        tools:text="暂无数据" />
+
+</RelativeLayout>

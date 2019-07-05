@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 关注-折叠子布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundActivity"
+    android:orientation="vertical">
+
+    <com.hqhop.www.iot.base.view.GridViewInScrollView
+        android:id="@+id/gridview_expandable_child_follow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundActivity"
+        android:numColumns="2"
+        android:padding="10dp"
+        android:stretchMode="columnWidth"
+        allen:dividerLineWidth="40" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_setting_expandable_child_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_follow"
+            android:gravity="center"
+            android:text="@string/modules_setting"
+            android:textColor="@color/colorTextDate"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_more_expandable_child_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_follow"
+            android:gravity="center"
+            android:text="@string/detail_data"
+            android:textColor="@color/colorTextDate"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_remove_follow_expandable_child_follow"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:background="@drawable/shape_text_follow"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:paddingRight="15dp"-->
+    <!--android:text="取消关注"-->
+    <!--android:textColor="@color/colorTextDate"-->
+    <!--android:textSize="14sp" />-->
+</LinearLayout>

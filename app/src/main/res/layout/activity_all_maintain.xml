@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.maintain.all.AllMaintainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar_with_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_type_all_maintain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/date"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+
+            <Spinner
+                android:id="@+id/spinner_date_all_maintain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/emergency"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_emergency_all_maintain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/type_maintain"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hqhop.www.iot.base.view.GridViewInScrollView
+            android:id="@+id/gridview_maintain_all_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:numColumns="1"
+            android:stretchMode="columnWidth"
+            allen:dividerLineWidth="30" />
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

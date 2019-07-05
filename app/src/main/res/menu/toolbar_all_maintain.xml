@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 工作台模块Toolbar配置 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.WorkbenchFragment">
+    <item
+        android:id="@+id/menu_item_submit_all_setting"
+        android:title="全部报修"
+        app:showAsAction="always" />
+</menu>

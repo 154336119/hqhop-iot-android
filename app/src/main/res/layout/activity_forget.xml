@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/root_activity_forget"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/backgroundActivity"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              tools:context=".activities.login.forget.ForgetActivity">
+
+    <include layout="@layout/layout_toolbar_with_title"/>
+
+    <!-- 账号输入 -->
+    <RelativeLayout
+        android:id="@+id/container_account_forget"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_container_login_input"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_account"/>
+
+        <EditText
+            android:id="@+id/et_account_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@null"
+            android:hint="@string/input_account"
+            android:imeOptions="actionGo"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+    <!-- 验证码和密码输入 -->
+    <LinearLayout
+        android:id="@+id/container_password_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_container_login_input"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_verify_forget"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/input_verification_code"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btn_get_verify_forget"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_btn_verification_code"
+                android:gravity="center"
+                android:text="@string/get_verification_code_again"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/backgroundActivity"/>
+
+        <EditText
+            android:id="@+id/et_password_forget"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/input_new_password"
+            android:inputType="textWebPassword"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_btn_common"
+        android:text="@string/get_verification_code"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

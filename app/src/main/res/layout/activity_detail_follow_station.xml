@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hqhop.www.iot.activities.main.follow.station.DetailFollowStationActivity">
+
+    <include layout="@layout/layout_toolbar_with_title" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.hqhop.www.iot.base.view.GridViewInScrollView
+            android:id="@+id/gridview_station_detail_follow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundActivity"
+            android:numColumns="2"
+            android:padding="10dp"
+            android:stretchMode="columnWidth"
+            allen:dividerLineWidth="40" />
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

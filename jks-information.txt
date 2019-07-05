@@ -1,0 +1,10 @@
+name:cloudgas.jks
+password: hqhp123456
+alias: iot
+password: dzgs123456
+First and Last Name: HQHP
+Organizational Unit: HQHP
+Organization: HQHP
+City or Locality: Chengdu
+State or Province: Sichuan
+Country Code: zh-CN

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hqhop.www.iot.activities.main.follow.module.ModuleSettingActivity">
+
+    <include layout="@layout/layout_toolbar_with_title" />
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/white"-->
+    <!--android:paddingBottom="10dp"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:paddingRight="10dp"-->
+    <!--android:paddingTop="10dp">-->
+
+    <!--<info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/segmented_group_module_setting"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:orientation="horizontal"-->
+    <!--segmentedgroup:sc_border_width="2dp"-->
+    <!--segmentedgroup:sc_corner_radius="10dp">-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/radio_detail_module_setting"-->
+    <!--style="@style/RadioButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:checked="true"-->
+    <!--android:text="显示详情" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/radio_quick_module_setting"-->
+    <!--style="@style/RadioButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="快捷显示" />-->
+    <!--</info.hoang8f.android.segmented.SegmentedGroup>-->
+    <!--</RelativeLayout>-->
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh_layout_module_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srlEnableLoadmore="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shown_modules"
+                android:textSize="13sp" />
+            <!--</LinearLayout>-->
+
+            <com.hqhop.www.iot.base.view.GridViewInScrollView
+                android:id="@+id/gridview_shown_detail_module"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:horizontalSpacing="14dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="14px"
+                allen:showDividerLine="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/optional_modules"
+                android:textSize="13sp" />
+
+            <com.hqhop.www.iot.base.view.GridViewInScrollView
+                android:id="@+id/gridview_not_shown_detail_module"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:horizontalSpacing="14dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="14px"
+                allen:showDividerLine="false" />
+        </LinearLayout>
+
+        <!--<com.hqhop.www.iot.base.view.NoScrollViewPager-->
+        <!--android:id="@+id/viewpager_module_setting"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="20dp" />-->
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <TextView
+        android:id="@+id/tv_remove_follow_detail_module"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_text_follow"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/unsubscribe"
+        android:textColor="@color/colorTextDate"
+        android:textSize="14sp" />
+
+</LinearLayout>

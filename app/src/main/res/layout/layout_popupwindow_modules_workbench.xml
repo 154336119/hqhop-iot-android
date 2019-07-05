@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <!--android:layout_marginTop="10dp"-->
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:checked="true"
+        android:enabled="false"
+        android:padding="15dp"
+        android:text="报警信息" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:checked="true"
+        android:enabled="false"
+        android:padding="15dp"
+        android:text="维保信息" />
+
+    <CheckBox
+        android:id="@+id/checkbox_liquid_popup_workbench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:text="液位信息" />
+
+    <CheckBox
+        android:id="@+id/checkbox_business_popup_workbench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:text="经营概览信息" />
+
+    <CheckBox
+        android:id="@+id/checkbox_pressure_popup_workbench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:text="调压出口压力信息" />
+
+</LinearLayout>

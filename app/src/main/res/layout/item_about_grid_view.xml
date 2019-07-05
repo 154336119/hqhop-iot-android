@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点列表信息 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/iv_icon_about"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/about_phone" />
+
+    <TextView
+        android:id="@+id/tv_title_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        tools:text="联系电话" />
+
+    <TextView
+        android:id="@+id/tv_content_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        tools:text="028-63166333" />
+
+    <ImageView
+        android:id="@+id/iv_more_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_arrow_right" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fixed_height_bottom_padding">4dp</dimen> <!--文字与图标的间距，值越小间距越大-->
+    <dimen name="fixed_label_active">13sp</dimen> <!--选中时的文字大小-->
+    <dimen name="fixed_label_inactive">13sp</dimen> <!--未选中时的文字大小-->
+    <dimen name="fixed_height_top_padding_inactive">2dp</dimen> <!--未选中时文字与图标的间距，值越小间距越大-->
+    <dimen name="fixed_height_top_padding_active">2dp</dimen> <!--选中时文字与图标的间距，值越小间距越大-->
+</resources>

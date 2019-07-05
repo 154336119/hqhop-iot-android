@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 关注-可折叠布局child的GridView每项布局 --><!--android:background="@drawable/shape_item_gridview_expandable_follow"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/tv_title_expandable_child_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextDate"
+        android:textSize="12sp"
+        tools:text="储罐压力" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_value_expandable_child_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            tools:text="484.18" />
+
+        <TextView
+            android:id="@+id/tv_unit_expandable_child_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            tools:text="kPa" />
+    </LinearLayout>
+</LinearLayout>

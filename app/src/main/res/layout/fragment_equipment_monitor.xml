@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点详情页-设备监控Fragment -->
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout_equipment_monitor_detail_station"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundActivity"
+    app:srlEnableLoadmore="false">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.hqhop.www.iot.base.view.GridViewInScrollView
+                android:id="@+id/gridview_equipment_monitor_detail_station"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:numColumns="1"
+                android:stretchMode="columnWidth"
+                allen:dividerLineWidth="30"
+                allen:showDividerLine="true" />
+
+            <include
+                android:id="@+id/container_no_data_workbench"
+                layout="@layout/layout_empty" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

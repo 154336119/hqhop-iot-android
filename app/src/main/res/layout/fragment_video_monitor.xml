@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点详情页-视频监控Fragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_status_video_monitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/hmsdk_initial_failed"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_hm_login_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车间1"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_hm_login_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车间2"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_hm_login_test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车间3"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_hm_login_test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车间4"
+        android:visibility="gone" />
+
+</LinearLayout>

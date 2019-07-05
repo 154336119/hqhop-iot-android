@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点详情页-设备维保Fragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/backgroundActivity"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_spinner_equipment_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <Spinner
+            android:id="@+id/spinner_equipments_equipment_maintain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_parts_equipment_maintain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh_layout_equipment_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srlEnableLoadmore="false">
+
+        <com.hqhop.www.iot.base.view.WebViewWithLoading
+            android:id="@+id/webview_equipment_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_more_equipment_maintain"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/shape_more"
+            android:text="@string/more"
+            android:textColor="@color/colorTextTypeTitle"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_emit_equipment_maintain"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/btn_more_equipment_maintain"
+            android:background="@drawable/shape_more"
+            android:text="报修"
+            android:textColor="@color/colorTextTypeTitle"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>

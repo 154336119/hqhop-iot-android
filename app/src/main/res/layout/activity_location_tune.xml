@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.station.detail.modules.polling.LocationTuneActivity">
+
+    <include layout="@layout/layout_toolbar_with_title" />
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/search_location_tune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:mt_hint="搜索"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_speechMode="true" />
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map_location_tune"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginBottom="10dp" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hqhop.www.iot.base.view.GridViewInScrollView
+            android:id="@+id/gridview_location_tune"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:stretchMode="columnWidth"
+            app:showDividerLine="true" />
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

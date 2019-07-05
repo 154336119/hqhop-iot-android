@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 关注模块Toolbar配置 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hqhop.www.iot.activities.main.follow.FollowFragment">
+    <item
+        android:id="@+id/menu_item_add_follow"
+        android:icon="@drawable/ic_add"
+        android:title="@string/menu_item_add_text_follow"
+        app:showAsAction="always" />
+</menu>

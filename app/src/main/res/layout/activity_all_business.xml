@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hqhop.www.iot.activities.main.workbench.business.all.AllBusinessActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar_with_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_type_all_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/type_station"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+
+            <Spinner
+                android:id="@+id/spinner_date_all_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/date"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_emergency_all_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/sales_remain"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollview_all_business"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 当前库存量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_current_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
+
+            <!-- 今日总销量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_today_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
+
+            <!-- 昨日总销量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_yesterday_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
+
+            <!-- 周销量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_week_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
+
+            <!-- 月销量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_month_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white" />
+
+            <!-- 今日预测销量 -->
+            <com.hqhop.www.iot.base.view.BarChartInNestedScrollView
+                android:id="@+id/chart_forecast_all_business"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/white" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

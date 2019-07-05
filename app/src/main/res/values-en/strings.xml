@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">HopNet IoT</string>
+
+    <string name="hqhp_dzgs">Chengdu HQHP Electronic Technology Co., Ltd</string>
+    <string name="hqhp_dzgs_address">No. 555, Kanglong Road, Pidu District, Chengdu, Sichuan Province</string>
+
+    <string name="year_ago"> year ago</string>
+    <string name="years_ago"> years ago</string>
+    <string name="month_ago"> month ago</string>
+    <string name="months_ago"> months ago</string>
+    <string name="day_ago"> day ago</string>
+    <string name="days_ago"> days ago</string>
+    <string name="hour_ago"> hour ago</string>
+    <string name="hours_ago"> hours ago</string>
+    <string name="minute_ago"> minute ago</string>
+    <string name="minutes_ago"> minutes ago</string>
+    <string name="just_now">Just now</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="network_error">Network Error</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="update">Update</string>
+    <string name="ignore">Ignore</string>
+    <string name="new_version_available">New version available</string>
+    <string name="more">More</string>
+    <string name="normal">Normal</string>
+    <string name="unnormal">Abnormal</string>
+    <string name="today_sales">Today sales:</string>
+    <string name="no_detail_address">No address details</string>
+
+    <string name="actived">Activated</string>
+    <string name="inactived">Unactivated</string>
+    <string name="belong">Belongs to:</string>
+    <string name="link">Linked EQP.:</string>
+    <string name="gateway_status">Status:</string>
+    <string name="disk">Disk</string>
+    <string name="memory">Mem.</string>
+    <string name="cell_data">Data</string>
+    <string name="sim_no">SIM NO.</string>
+    <string name="gateway_date">Date of Gateway</string>
+    <string name="gps_information">GPS information</string>
+    <string name="app_version">APP Version</string>
+    <string name="hardware_version">Hardware Version</string>
+    <string name="protocol_version">Protocol Version</string>
+
+    <string name="hmsdk_initial_failed">Video monitoring initiation Failed</string>
+    <string name="stop_video_save_at">Stopped recording video, it was saved at: </string>
+    <string name="start_video">Start shooting video</string>
+    <string name="capture_failed">Image capture failed</string>
+    <string name="capture_succeed_save_at">Capture succeed, it was saved at: </string>
+    <string name="protection_succeed">Defense in place</string>
+    <string name="removal_succeed">Withdraw defense</string>
+    <string name="exit_hm_video">Are you sure to exit playing video?</string>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="login_successfully">Login succeed</string>
+    <string name="input_account">Please enter your username</string>
+    <string name="input_password">Please enter your password</string>
+    <string name="forget_password">Forget password？</string>
+    <string name="account_password_error">Incorrect username or password</string>
+    <string name="username_password_cant_be_empty">Username or password cannot be empty</string>
+
+    <string name="input_phone">Please enter phone number</string>
+    <string name="input_invite">Please enter invitation code</string>
+    <string name="phone_cant_be_empty">Phone number cannot be empty</string>
+    <string name="password_must_be_same">Passwords must be the same</string>
+    <string name="invitation_code_cant_be_empty">Invitation code cannot be empty</string>
+    <string name="password_cant_be_empty">Password cannot be empty</string>
+
+    <string name="verification_code_cant_empty">Verification code cannot be empty</string>
+    <string name="verification_code_password_cant_empty">Verification code or password cannot be empty</string>
+    <string name="get_verification_code">Get verification code</string>
+    <string name="get_verification_code_again">Regain</string>
+    <string name="input_verification_code">Please enter the verification code</string>
+    <string name="input_new_password">Please enter the new password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_failed">Reset password failed</string>
+    <string name="reset_password_successfully">Reset password succeed</string>
+
+    <string name="attention">Attention</string>
+    <string name="authorization_to_receive_push_message">Please allow the permission of "System Settings" for better message receiving</string>
+    <string name="go_to_settings">Go to SETTINGS</string>
+
+    <string name="no_events">No event</string>
+    <string name="up_to_date_events">UP-TO-DATE events</string>
+    <string name="no_follow">No follow data</string>
+
+    <string name="all_station">All stations</string>
+    <string name="station_list">Station list</string>
+    <string name="status">Status</string>
+    <string name="type">Type</string>
+    <string name="no_station_data">No station data</string>
+
+    <string name="all_events">All events</string>
+
+    <string name="getting_weather_data">Getting weather data</string>
+    <string name="getting_weather_data_failed">Getting weather data failed</string>
+    <string name="realtime_weather">Real-time weather</string>
+    <string name="no_alarm_data">No alarm data</string>
+    <string name="alarm_message"> alarm message(s)</string>
+
+    <string name="station_equipment_monitor">EQP. Monitor</string>
+    <string name="station_alarm">Alarm Data</string>
+    <string name="station_statistics">Operation Statistics</string>
+    <string name="station_technology">Process Diagram</string>
+    <string name="station_maintenance">EQP. Maintenance</string>
+    <string name="station_scheduling">Scheduling Record</string>
+    <string name="station_inspection">Inspection Record</string>
+    <string name="station_video">Video Monitor</string>
+    <string name="station_gateway">Acquisition Gateway</string>
+    <string name="station_more">More</string>
+
+    <string name="manufacture">Manufacturer:</string>
+    <string name="date_purchase">Purchase Date:</string>
+    <string name="price">Purchase Price:</string>
+    <string name="production_date">Manufacture date:</string>
+    <string name="assets_no">Assets NO.:</string>
+    <string name="next_maintenance_date">Expiration Date: </string>
+
+    <string name="modules_setting">Shortcut display</string>
+    <string name="detail_data">Check more data</string>
+    <string name="done">Done</string>
+    <string name="shown_modules">Current display module</string>
+    <string name="optional_modules">Optional module</string>
+    <string name="unsubscribe">Cancel follow</string>
+
+    <string name="copy_email_to_clipboard">Copy email address to clipboard</string>
+    <string name="no_camera_permission">No permission to use camera, please go to SETTINGS to get permission</string>
+    <string name="checking_for_update">Checking updates......</string>
+    <string name="no_update_available">Already updated to the latest version</string>
+    <string name="update_description">Update description: </string>
+    <string name="downloading">Downloading......</string>
+    <string name="file_path_error_to_update">File path is error, unable to update</string>
+
+    <string name="authorization_to_login_in_web">Is web access permitted?</string>
+    <string name="qrcode_newwork_error_scan_again">Invalid QR code or network error, please re-scan</string>
+    <string name="authorization_failed">Authorization failed</string>
+    <string name="authorization_successfully">Authorization succeed</string>
+    <string name="turn_on_off_flashlight">Turn ON/OFF flashlight</string>
+
+    <string name="about_telephone">Contact Phone</string>
+    <string name="about_email">Email</string>
+    <string name="about_app">About APP</string>
+    <string name="about_scan_qrcode">Scan QR Code</string>
+    <string name="about_hqhop">About Houpu Holding</string>
+    <string name="about_feedback">Feedback</string>
+    <string name="about_profile">Profile</string>
+
+    <string name="station_leader">Station: </string>
+    <string name="telephone">Tel: </string>
+
+    <string name="all">All</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_clear">Alarm removed</string>
+    <string name="scene_change">Scene switch</string>
+
+    <string name="server_address">Server address</string>
+    <string name="formal_server_address">Formal server address</string>
+    <string name="informal_server_address">Test server address</string>
+    <string name="have_set_server_address_as">The server address has been set as </string>
+    <string name="input_server_address">Please enter the server address</string>
+
+    <string name="title_workbench">Workbench</string>
+    <string name="title_follow">Follow</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_map">Map</string>
+    <string name="title_about">About</string>
+    <string name="title_alert">Alarm</string>
+    <string name="no_equipment_data">No equipment data available</string>
+
+    <string name="menu_item_notification_text_workbench">Notification</string>
+    <string name="menu_item_add_text_follow">Add</string>
+    <string name="double_click_to_exit">Click "return" again to exit</string>
+    <string name="input_repeat_password">Please enter the password again</string>
+    <string name="register">Register</string>
+    <string name="login_failed">Login failed</string>
+    <string name="token_is_empty">Token is empty，please check your username</string>
+    <string name="lng_station">LNG Station</string>
+    <string name="cng_station">CNG Station</string>
+    <string name="lcng_station">L-CNG Station</string>
+    <string name="gasify_station">Gasification Station</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="hydrogen">Hydrogen Station</string>
+    <string name="factory">Factory</string>
+    <string name="ship">Vessel</string>
+    <string name="gasonline_station">Gasoline Station</string>
+    <string name="charging_station">Charging Station</string>
+    <string name="other">Others</string>
+    <string name="title_activity_module_setting">Settings</string>
+    <string name="unknown">Unknown</string>
+    <string name="input_feedback">Please enter your feedback</string>
+    <string name="thx_feedback">Thanks for your feedback</string>
+
+    <string name="date_ascending">Date(asc)</string>
+    <string name="date_descending">Date(desc)</string>
+    <string name="sales_ascending">Today Sales(asc)</string>
+    <string name="sales_descending">Today Sales(desc)</string>
+    <string name="emergency_ascending">Emergency(asc)</string>
+    <string name="emergency_descending">Emergency(desc)</string>
+    <string name="liquid_ascending">Liquid Level(asc)</string>
+    <string name="liquid_descending">Liquid Level(desc)</string>
+    <string name="pressure_ascending">Pressure(asc)</string>
+    <string name="pressure_descending">Pressure(desc)</string>
+    <string name="recent_one_day">Within 1 day</string>
+    <string name="recent_three_days">Within 3 days</string>
+    <string name="recent_five_days">Within 5 days</string>
+    <string name="enter_station_name">Please enter the station name</string>
+    <string name="receive_push_message">Receive push messages</string>
+</resources>

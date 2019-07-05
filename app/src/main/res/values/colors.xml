@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006699</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorTextForget">#2e81ac</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="black_transparency_10p">#19000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grayDividerLine">#f5f5f5</color>
+    <color name="backgroundActivity">#f5f5f5</color>
+    <color name="red">#f00</color>
+    <!-- 工作台-概览站点字体颜色 -->
+    <color name="colorTextOverviewTitle">#2f82ac</color>
+    <!-- 工作台-概览在线数量字体颜色 -->
+    <color name="colorTextOverviewOnline">#3d9d27</color>
+    <!-- 工作台-分类标题字体颜色 -->
+    <color name="colorTextTypeTitle">#4a4a4a</color>
+    <!-- 工作台-分类更多字体颜色 -->
+    <color name="colorTextTypeMore">#929292</color>
+    <!-- 工作台-日期时间字体颜色 -->
+    <color name="colorTextDate">#9b9b9b</color>
+    <color name="gradientStartColor">#459BC4</color>
+    <color name="gradientEndColor">#303f9f</color>
+    <!-- BEGIN: Dashboard -->
+    <color name="shadow">#dfdfdf</color>
+    <color name="scale">#58000000</color>
+    <color name="leftRight">#e1dcd6</color>
+    <color name="rightRight">#f4efe9</color>
+    <color name="insideCircle">#c2b9b0</color>
+    <color name="outsideBlue">#2690f8</color>
+    <color name="textColor">#666666</color>
+    <color name="skyblue">#ff87ceeb</color>
+    <!-- END: Dashboard -->
+
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+    <color name="default_text">#ff454545</color>
+    <color name="subscribe_item_text_color_pressed_night">#ff303030</color>
+    <color name="subscribe_item_focused_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_drag_stroke_night">#ff464646</color>
+    <color name="subscribe_item_drag_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_focused_bg_night">#ff252525</color>
+    <color name="subscribe_item_focused_stroke_night">#ff464646</color>
+    <color name="subscribe_item_selected_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_stroke_night">#ffbc494d</color>
+    <color name="subscribe_item_disabled_bg_night">#ff2b2b2b</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+</resources>

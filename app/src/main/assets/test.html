@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+    <button onclick="detailAlarm()" style="width: 100%; height: 10%; font-size: 20px">18</button>
+    <br>
+    <button onclick="detailStation()" style="width: 100%; height: 10%; font-size: 20px">727</button>
+    <br>
+    <button onclick="finish()" style="width: 100%; height: 10%; font-size: 20px">finish</button>
+</body>
+
+</html>
+
+<script>
+    function detailAlarm() {
+        window.JavaScriptInterface.invokeNative("alarm", "727,1234");
+    }
+
+    function detailStation() {
+        window.JavaScriptInterface.invokeNative("station", "727");
+    }
+
+    function finish() {
+        window.JavaScriptInterface.invokeNative("finish", "");
+    }
+</script>

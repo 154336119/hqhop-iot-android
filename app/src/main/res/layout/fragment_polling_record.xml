@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 站点详情页-巡检记录Fragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allen="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    android:orientation="vertical">
+
+    <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented_group_polling_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="2dp"
+        segmentedgroup:sc_corner_radius="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_today_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="今日计划" />
+
+        <RadioButton
+            android:id="@+id/radio_week_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周" />
+
+        <RadioButton
+            android:id="@+id/radio_month_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="月" />
+
+        <RadioButton
+            android:id="@+id/radio_quarter_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="季" />
+
+        <RadioButton
+            android:id="@+id/radio_year_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年" />
+
+        <RadioButton
+            android:id="@+id/radio_history_polling_record"
+            style="@style/RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="历史" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <Button
+        android:id="@+id/btn_test_polling_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_btn_common"
+        android:text="巡检内容测试" />
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:background="@color/grayDividerLine" />-->
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<com.hqhop.www.iot.base.view.GridViewInScrollView-->
+    <!--android:id="@+id/gridview_alert_message_detail_station"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/white"-->
+    <!--android:numColumns="1"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--allen:showDividerLine="true" />-->
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+</LinearLayout>

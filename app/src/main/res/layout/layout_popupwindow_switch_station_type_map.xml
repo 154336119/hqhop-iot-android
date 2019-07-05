@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_all_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_all_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/switch_all_default" />
+
+        <TextView
+            android:id="@+id/tv_all_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/all"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_gas_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_gas_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_gas_type" />
+
+        <TextView
+            android:id="@+id/tv_gas_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/gasify_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_oil_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_oil_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_oil_type" />
+
+        <TextView
+            android:id="@+id/tv_oil_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/gasonline_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_cng_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_cng_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_cng_type" />
+
+        <TextView
+            android:id="@+id/tv_cng_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/cng_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_lng_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_lng_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_lng_type" />
+
+        <TextView
+            android:id="@+id/tv_lng_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/lng_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_lcng_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_lcng_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_lcng_type" />
+
+        <TextView
+            android:id="@+id/tv_lcng_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/lcng_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_charging_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_charging_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_charging_type" />
+
+        <TextView
+            android:id="@+id/tv_charging_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/charging_station"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_factory_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_factory_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_factory_type" />
+
+        <TextView
+            android:id="@+id/tv_factory_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/factory"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_ship_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_ship_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar_ship_type" />
+
+        <TextView
+            android:id="@+id/tv_ship_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/ship"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_hydrogen_switch_station_type_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_hydrogen_switch_station_type_map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hydrogen_default" />
+
+        <TextView
+            android:id="@+id/tv_hydrogen_switch_station_type_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="130dp"
+            android:text="@string/hydrogen"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
