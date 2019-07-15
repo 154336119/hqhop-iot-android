@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">HopNet物联</string>
+    <string name="app_name">诺诚VRU管理</string>
 
     <string name="hqhp_dzgs">成都华气厚普电子技术有限公司</string>
     <string name="hqhp_dzgs_address">四川省成都市郫都区康隆路555号</string>
@@ -187,7 +187,7 @@
     <string name="hydrogen">加氢站</string>
     <string name="factory">工厂</string>
     <string name="ship">船舶</string>
-    <string name="gasonline_station">加油站</string>
+    <string name="gasonline_station">油库</string>
     <string name="charging_station">充电站</string>
     <string name="other">其他</string>
     <string name="title_activity_module_setting">设置</string>

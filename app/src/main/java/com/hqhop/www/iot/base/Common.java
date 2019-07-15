@@ -14,13 +14,13 @@ public class Common {
 //    public static String BASE_URL = "http://192.168.106.61:9999/";
 //    public static String BASE_URL = BuildConfig.DEBUG ? "http://223.85.202.110:29999/" : "http://120.55.240.77:48301/";
 
-    public static String BASE_URL = BuildConfig.DEBUG ? "http://iot.hqhop.com:30101/" : "http://iot.hopnet.cn:48301/";
+    public static String BASE_URL = BuildConfig.DEBUG ? "http://iot.hqhop.com:30101/" : "http://iot.hqhop.com:30101/";
 //    public static String BASE_URL = BuildConfig.DEBUG ? "http://iot.hopnet.cn:48301/" : "http://223.85.202.110:29876/";
 
     public static String BASE_DEBUG_URL = "http://iot.hqhop.com:30101/";
 //    public static String BASE_DEBUG_URL = "http://iot.hopnet.cn:48301/";
 
-        public static String BASE_RELEASE_URL = "http://223.85.202.110:29876/";
+        public static String BASE_RELEASE_URL = "http://iot.hqhop.com:30101/";
 //    public static String BASE_RELEASE_URL = "http://iot.hopnet.cn:48301/";
 
     public static final String GRANT_TYPE = "password";

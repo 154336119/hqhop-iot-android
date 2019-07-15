@@ -19,8 +19,8 @@ android {
         applicationId "com.hqhop.www.iot"
         minSdkVersion 19
         targetSdkVersion 22
-        versionCode 4
-        versionName "2.2.2"
+        versionCode 230
+        versionName "2.3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         testInstrumentationRunner "com.android.test.runner.MultiDexTestRunner"
         vectorDrawables.useSupportLibrary = true

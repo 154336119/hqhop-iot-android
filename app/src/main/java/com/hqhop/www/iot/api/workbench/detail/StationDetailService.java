@@ -115,12 +115,12 @@ public interface StationDetailService {
 
     /**
      * 获取运营统计url
-     *
+     *成http://iot.hqhop.com:30101/api/managementController/findICH5
      * @return
      */
 //    @GET("api/managementController/findManagement")
 //    Observable<TechnologyFlowBean> getBusinessData();
-    @GET("api/operateController/findOperate")
+    @GET("api/managementController/findICH5")
     Observable<TechnologyFlowBean> getBusinessData();
 
     /**

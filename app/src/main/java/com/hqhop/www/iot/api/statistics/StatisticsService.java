@@ -12,7 +12,6 @@ import rx.Observable;
 public interface StatisticsService {
     /**
      * 获取运营统计url
-     *
      * @return
      */
     @GET("api/managementController/findManagement")

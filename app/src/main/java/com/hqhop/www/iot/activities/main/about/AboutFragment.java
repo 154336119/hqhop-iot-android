@@ -334,8 +334,8 @@ public class AboutFragment extends Fragment {
         titles.add(getString(R.string.about_scan_qrcode));
         titles.add(getString(R.string.about_feedback));
         titles.add(getString(R.string.about_profile));
-        contents.add("028-63166177");
-        contents.add("service@hopnet.cn");
+        contents.add("0532-83785165");
+        contents.add("397632969@qq,com");
         contents.add("V" + BuildConfig.VERSION_NAME);
         contents.add("");
         contents.add("");

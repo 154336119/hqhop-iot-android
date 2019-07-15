@@ -694,6 +694,9 @@ public class DetailStationActivity extends BaseAppCompatActivity implements View
                     if (businessStatisticsFragment == null) {
                         iconIds.add(R.drawable.ic_business_statistics_detail_station);
                         businessStatisticsFragment = new BusinessStatisticsFragment();
+                        Bundle bundle = new Bundle();
+                        bundle.putString("stationId",stationId);
+                        businessStatisticsFragment.setArguments(bundle);
                         fragmentList.add(businessStatisticsFragment);
                     }
                     break;

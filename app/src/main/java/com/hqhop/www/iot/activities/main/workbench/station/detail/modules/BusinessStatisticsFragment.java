@@ -48,6 +48,7 @@ public class BusinessStatisticsFragment extends Fragment {
 
     private boolean finishFetchingData = true;
 
+    private String stationId;
 //    private GridView gridView;
 //
 //    private BusinessGridViewAdapter adapter;
@@ -61,9 +62,8 @@ public class BusinessStatisticsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_business_statistics, container, false);
-
         context = ((DetailStationActivity) getActivity());
-
+        stationId = getArguments().getString("stationId");
         refreshLayout = rootView.findViewById(R.id.refresh_layout_business_statistics);
         refreshLayout.setRefreshHeader(new BezierRadarHeader(context).setPrimaryColor(getResources().getColor(R.color.colorPrimary)));
         refreshLayout.setRefreshFooter(new BallPulseFooter(context));
@@ -135,7 +135,7 @@ public class BusinessStatisticsFragment extends Fragment {
 
     private void setData() {
         if (technologyFlowBean.getData().getUrl().length() > 0) {
-            url = Common.BASE_URL + technologyFlowBean.getData().getUrl() + "?stationType=" + DetailStationActivity.stationType + "&userid=" + App.userid + "&access_token=" + App.token;
+            url = Common.BASE_URL + technologyFlowBean.getData().getUrl() + "?stationId=" + stationId + "&access_token=" + App.token;
         }
         webView.loadUrl(url);
     }

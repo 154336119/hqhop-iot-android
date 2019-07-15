@@ -76,7 +76,6 @@ public class LoginActivity extends BaseAppCompatActivity implements ITokenView, 
         sp = getSharedPreferences(Common.SP_USER_INFO, Context.MODE_PRIVATE);
 
         tokenPresenter = new TokenPresenter(this);
-
         setToolBarTitle(getString(R.string.login));
         etAccount = findViewById(R.id.et_account_login);
         etPassword = findViewById(R.id.et_password_login);

@@ -489,7 +489,7 @@ public class NewWorkbenchFragment extends Fragment implements View.OnClickListen
                     ivSingle.setImageResource(R.drawable.avatar_gas_type);
                     singleStationType = "gas";
                     break;
-                case "oil":// 加油站
+                case "oil":// 油库
 //                    viewHolder.ivStation.setImageResource(R.drawable.avatar_oil);
                     tvStationSingle.setText(getString(R.string.gasonline_station));
                     ivSingle.setImageResource(R.drawable.avatar_oil_type);

@@ -150,7 +150,6 @@ public class StatisticsFragment extends Fragment {
             refreshLayout.finishRefresh();
         }
     }
-
     private void setupToolbar() {
         ToolbarUtils.setCustomToolbar(mContext, toolbar);
         ToolbarUtils.setTitle(titleToolbar, getString(R.string.title_statistics));
