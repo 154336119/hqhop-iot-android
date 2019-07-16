@@ -7,10 +7,16 @@ apply plugin: 'kotlin-android-extensions'
 android {
     signingConfigs {
         release {
-            keyAlias 'iot'
-            keyPassword 'dzgs123456'
-            storeFile file('../cloudgas.jks')
-            storePassword 'hqhp123456'
+            keyAlias 'danerfei'
+            keyPassword 'asd123'
+            storeFile file('D:\\slb_key\\danerfei_keystore.jks')
+            storePassword 'asd123'
+        }
+        debug {
+            storeFile file('D:\\slb_key\\danerfei_keystore.jks')
+            storePassword 'asd123'
+            keyAlias = 'danerfei'
+            keyPassword 'asd123'
         }
     }
     compileSdkVersion 26

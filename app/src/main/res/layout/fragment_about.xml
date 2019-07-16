@@ -18,14 +18,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/about_logo"/>
+            android:src="@mipmap/logo"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="HopNet"
+            android:text="诺诚VRU管理"
             android:textColor="@color/white"
             android:textSize="16sp"/>
     </LinearLayout>

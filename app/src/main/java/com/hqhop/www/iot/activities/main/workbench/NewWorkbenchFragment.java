@@ -23,7 +23,6 @@ import com.hqhop.www.iot.R;
 import com.hqhop.www.iot.activities.main.MainActivity;
 import com.hqhop.www.iot.activities.main.workbench.alert.detail.DetailAlertActivity;
 import com.hqhop.www.iot.activities.main.workbench.event.AllEventsActivity;
-import com.hqhop.www.iot.activities.main.workbench.message.MessageWebActivity;
 import com.hqhop.www.iot.activities.main.workbench.station.detail.DetailStationActivity;
 import com.hqhop.www.iot.activities.main.workbench.station.type.NewStationTypeActivity;
 import com.hqhop.www.iot.api.workbench.WorkbenchService;
@@ -417,12 +416,12 @@ public class NewWorkbenchFragment extends Fragment implements View.OnClickListen
     private void setupToolbar() {
         ToolbarUtils.setCustomToolbar(mContext, toolbar);
         ToolbarUtils.setTitle(titleToolbar, getString(R.string.title_workbench));
-        messageToolbar.setVisibility(View.VISIBLE);
-        messageToolbar.setOnClickListener(view -> {
-//            Intent notificationIntent = new Intent(mContext, NotificationActivity.class);
-            Intent notificationIntent = new Intent(mContext, MessageWebActivity.class);
-            startActivity(notificationIntent);
-        });
+//        messageToolbar.setVisibility(View.VISIBLE);
+//        messageToolbar.setOnClickListener(view -> {
+////            Intent notificationIntent = new Intent(mContext, NotificationActivity.class);
+//            Intent notificationIntent = new Intent(mContext, MessageWebActivity.class);
+//            startActivity(notificationIntent);
+//        });
     }
 
     /**
