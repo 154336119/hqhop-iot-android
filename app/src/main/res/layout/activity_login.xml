@@ -69,12 +69,10 @@
                         android:singleLine="true"
                         android:textSize="12sp"/>
                 </RelativeLayout>
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="@color/backgroundActivity"/>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="50dp">
